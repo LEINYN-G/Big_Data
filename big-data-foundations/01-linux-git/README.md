@@ -170,9 +170,9 @@ Shell            : Bash
 Version Control  : Git                      
 Language         : Bash / Java / Python     
 Big Data Target  : Hadoop                   
-
+___________________________________________
 Git Workflow
-_____________________________________________________________
+____________________________________________________________
 Each meaningful change should be tracked using Git.         
 Example workflow:                                                                    
 git status                                                  
