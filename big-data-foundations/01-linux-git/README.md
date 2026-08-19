@@ -79,11 +79,8 @@ The monitor will collect:
 
 Example Workflow
 
-Linux System
-     |
-     v
-System Information
-     |
+Linux System -> System Information
+    |
      +---- CPU
      +---- Memory
      +---- Disk
@@ -92,7 +89,7 @@ System Information
      +---- Git
      +---- Hadoop
      |
-     v
+     ->
 Health Report
 
 ---
