@@ -159,3 +159,8 @@ Possible metrics:
 - Number of errors
 - Events per time interval
 - Most frequent ev
+
+### Research question:
+Can lightweight command-line processing provide useful insights before introducing a distributed processing framework?
+
+
