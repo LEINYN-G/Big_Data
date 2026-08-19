@@ -164,22 +164,21 @@ Possible metrics:
 Can lightweight command-line processing provide useful insights before introducing a distributed processing framework?
 
 Technology Stack
-_____________________________________________
-Operating System : Ubuntu Linux             |
-Shell            : Bash                     |
-Version Control  : Git                      |
-Language         : Bash / Java / Python     |
-Big Data Target  : Hadoop                   |
-____________________________________________|
+__________________________________________
+Operating System : Ubuntu Linux             
+Shell            : Bash                     
+Version Control  : Git                      
+Language         : Bash / Java / Python     
+Big Data Target  : Hadoop                   
 
 Git Workflow
 _____________________________________________________________
-Each meaningful change should be tracked using Git.         |
-Example workflow:                                           |                         
-git status                                                  |
-git add .                                                   |
-git commit -m "feat: add system health monitoring script"   |
-git log -- oneline                                          |
-git push                                                    |
-____________________________________________________________|
+Each meaningful change should be tracked using Git.         
+Example workflow:                                                                    
+git status                                                  
+git add .                                                  
+git commit -m "feat: add system health monitoring script"   
+git log -- oneline                                          
+git push                                                    
+____________________________________________________________
 
