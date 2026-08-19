@@ -103,20 +103,15 @@ A simple environment-monitoring tool can therefore become the first layer of obs
 The same principle will be extended in future modules to:
 
 Linux
-   |
-   v
+   ->
 Hadoop / HDFS
-   |
-   v
+   ->
 MapReduce
-   |
-   v
+   ->
 Spark
-   |
-   v
+   ->
 Distributed Experiments
-   |
-   v
+   ->
 Performance Analysis
 
 ---
