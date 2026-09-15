@@ -100,6 +100,34 @@ This distinction becomes incredibly important later when we talk about:
 | **Data imbalance** |
 | **Outliers** |
 
+### 4. Variable
+
+A variable represents a characteristic that can take different values across observations.
+
+| variables |
+| :--- |
+| Distance |
+| Order Value |
+| Delivery Time |
+| Rating |
+| Payment Method |
+
+for example:
+
+| Observation | Delivery Time (min) |
+| :--- | :--- |
+| Observation 1 | 24 |
+| Observation 2 | 43 |
+| Observation 3 | 19 |
+| Observation 4 | 37 |
+
+The variable is:
+Delivery Time
+The value changes from observation to observation.
+
+
+
+
 
 
 
