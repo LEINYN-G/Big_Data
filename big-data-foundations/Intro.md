@@ -77,17 +77,29 @@ In our example:
 1001 | 2.4 | 450 | 24 | 5
 is one observation.
 So:
-Dataset
-│
-├── Observation 1
-├── Observation 2
-├── Observation 3
-└── Observation 4
+| Structure |
+| :--- |
+| **Dataset** |
+| ├── Observation 1 |
+| ├── Observation 2 |
+| ├── Observation 3 |
+| └── Observation 4 |
+
 If you have:
 1,000,000 orders
 you potentially have:
 1,000,000 observations
 This distinction becomes incredibly important later when we talk about:
+
+| Topic |
+| :--- |
+| **Sampling** |
+| **Train/test splits** |
+| **Statistical inference** |
+| **Distributed processing** |
+| **Data imbalance** |
+| **Outliers** |
+
 
 
 
