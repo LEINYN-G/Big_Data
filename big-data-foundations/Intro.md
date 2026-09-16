@@ -150,11 +150,11 @@ So conceptually:
 <li> ↓ </li><li> MACHINE LEARNING MODEL </li><li>TARGET</li>
 <li>Late?</li>
 Very important:
-Variable ≠ always feature.<br
+Variable ≠ always feature.<br>
 ### A variable becomes a feature in the context of a particular modeling problem.
-For example:
-Customer ID
-is a variable
+For example:<br>
+Customer ID<br>
+is a variable<br>
 But it might be useless--or even harmful--as a predictive feature.
 
 🔥 A real-world exercise
