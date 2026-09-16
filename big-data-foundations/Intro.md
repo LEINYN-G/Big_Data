@@ -88,7 +88,7 @@ So:
 If you have:
 1,000,000 orders
 you potentially have:
-1,000,000 observations
+1,000,000 observations<br>
 This distinction becomes incredibly important later when we talk about:
 
 | Topic |
@@ -121,15 +121,15 @@ for example:
 | Observation 3 | 19 |
 | Observation 4 | 37 |
 
-The variable is:
-Delivery Time
+The variable is:<br>
+Delivery Time<br>
 The value changes from observation to observation.
 
 ### 5. Feature
 
 Now we reach an important Data Science distinction.
 
-A feature is an input variable used by a model to make a prediction or perform some analytical task.
+A feature is an input variable used by a model to make a prediction or perform some analytical task.<br>
 
 Suppose our goal is:
 ### Predict whether a food delivery will arrive late.
@@ -161,20 +161,23 @@ But it might be useless--or even harmful--as a predictive feature.
 Let's make this practical immediately.
 Imagine you are building a system for Co-Sphere or another employment platform.
 Suppose you collect:
-Candidate ID
-Age
-Degree
-Branch
-CGPA
-Skills
-Projects
-Internships
-Location
-Expected Salary
-Years of Experience
-Applied Job
-Interview Score
-Hired
+
+| Candidate Fields |
+| :--- |
+| Candidate ID |
+| Age |
+| Degree |
+| Branch |
+| CGPA |
+| Skills |
+| Projects |
+| Internships |
+| Location |
+| Expected Salary |
+| Years of Experience |
+| Applied Job |
+| Interview Score |
+| Hired |
 
 Now classify them.
 
@@ -192,22 +195,51 @@ Depends on what you're predicting.
 If:
 Target = Hired
 then:
-CGPA
-Skills
-Projects
-Internships
-Experience
-Interview Score
+| Selection Criteria |
+| :--- |
+| CGPA |
+| Skills |
+| Projects |
+| Internships |
+| Experience |
+| Interview Score |
 
-could potentially be feartures.
-But be careful.
-### If the model is supposed to predict whether someone will be hired before the interview, then:
+could potentially be feartures.<br>
+But be careful.<br>
+### If the model is supposed to predict whether someone will be hired before the interview, then:<br>
 *Interview Score* 
 **would create data leakage.<br>
 why?<br>
 Because you're using information that wouldn't be available at prediction time.
 "would this information legitimately exist at the moment my system makes its prediction?"**
-well, this is called real world ML.
+well, this is called real world ML. -_-
+
+Now we're moving to our central idea i.e.
+### BIG DATA CONCEPT
+A common conceptual framework describes Big Data using the Vs:
+
+| Big Data Characteristics |
+| :--- |
+| Volume |
+| Velocity |
+| Variety |
+| Veracity |
+| Value |
+
+Sometimes you'll also encounter additional Vs such as:
+Variability
+Visualization
+
+But your syllabus uses the classic five, so we'll master those first.
+1. Volume
+Volume = how much data exists.
+Imagine a small restaurant.
+It might generate:
+
+
+
+
+
 
 
 
