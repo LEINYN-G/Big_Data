@@ -7,13 +7,13 @@ how trustworthy is it, what value can we extract, and what kind of infrastructur
 -> We'll begin with five deceptively simple concepts:
 
 Data<br>
-  ↓
+  ↓ <br>
 Dataset<br>
-  ↓
+  ↓ <br>
 Observation<br>
-  ↓
+  ↓ <br>
 Variable<br>
-  ↓
+  ↓ <br>
 Feature<br>
 
 These words are often used interchangeably by beginners, but they aren't exactly the same.
