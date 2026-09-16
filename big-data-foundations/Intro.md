@@ -129,20 +129,20 @@ The value changes from observation to observation.
 
 Now we reach an important Data Science distinction.
 
-A feature is an input variable used by a model to make a prediction or perform some analytical task.<br>
+**A feature is an input variable used by a model to make a prediction or perform some analytical task.** <br>
 
 Suppose our goal is:
 ### Predict whether a food delivery will arrive late.
-We might have:
-Distance
-Weather
-Traffic
-Restaurant preparation time
-Time of day
-Number of active delivery partners
--> These can become features.
-Out target could be:
-Late = 0/1
+We might have:<br>
+Distance<br>
+Weather<br>
+Traffic<br>
+Restaurant preparation time<br>
+Time of day<br>
+Number of active delivery partners<br>
+-> These can become features.<br>
+Out target could be:<br>
+Late = 0/1<br>
 So conceptually:
 
 
@@ -150,7 +150,7 @@ So conceptually:
 <li> ↓ </li><li> MACHINE LEARNING MODEL </li><li>TARGET</li>
 <li>Late?</li>
 Very important:
-Variable ≠ always feature.
+Variable ≠ always feature.<br
 ### A variable becomes a feature in the context of a particular modeling problem.
 For example:
 Customer ID
