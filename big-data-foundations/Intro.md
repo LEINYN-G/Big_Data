@@ -379,31 +379,10 @@ That's **Value**
 ```
 A better way to think about it is:<br>
 **Data whose scale, speed, diversity, or complexity creates challenges that traditional data-processing approaches struggle to handle efficiently.** <br>
+That distinction will become very important when we reach Hadoop and Spark.
 
-### C. EVOLUTION
-So exactly **Why did Hadoop and Spark become necessary in the first palce?** <br>
-Don't memorize the names. <br>
-Understand the historical problem.<br>
-Stage 1 — File systems <br>
-Originally: <br>
-application <br>
-    ↓ <br>
-files <br>
-
-e.g. <br>
-customers.txt, orders.csv, employees.csv <br>
-Simple.<br>
-But then organizations started accumulating enormous quantities of files.<br>
-Problems:<br>
-
-difficult querying<br>
-duplication<br>
-consistency issues<br>
-poor concurrent access<br>
-difficult management<br>
-
-So we needed something better.
-
+### C. EVOLUTION <br>
+refer to Evolution.md
 
 
 
