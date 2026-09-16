@@ -240,7 +240,7 @@ It might generate:
 The real question becomes:  
 **How do i store, process, search, replicate, and analyze massive amounts of data efficiently?**
 
-That's where distributed systems become imprtant.
+That's where distributed systems become important.
 
 ### 2. Velocity
 
@@ -248,16 +248,16 @@ Velocity = how quickly data is generated, transmitted, and/or needs to be proces
 Compare:
 Batch<br>
 Sales data -> collect all day -> Process at midnight
-versus:
-Sensor
- ↓
-Event
- ↓
-Network
- ↓
-Processing system
- ↓
-Decision
+versus:<br>
+Sensor<br>
+ ↓<br>
+Event<br>
+ ↓<br>
+Network<br>
+ ↓<br>
+Processing system<br>
+ ↓<br>
+Decision<br>
 
 Imagine a stock-trading system.<br>
 If data arrives milliseconds apart, processing it tomorrow is useless.<br>
