@@ -58,12 +58,13 @@ amount<br>
 date<br>
 
 And SQL lets us ask:<br>
+```text
 SELECT ...<br>
 FROM ...<br>
 WHERE ...<br>
 JOIN ...<br>
 GROUP BY ...<br>
-
+```
 But then data became:<br>
 Larger<br>
 + <br>
