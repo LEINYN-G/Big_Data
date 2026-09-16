@@ -6,15 +6,15 @@ how trustworthy is it, what value can we extract, and what kind of infrastructur
 
 -> We'll begin with five deceptively simple concepts:
 
-Data
+Data<br>
   ↓
-Dataset
+Dataset<br>
   ↓
-Observation
+Observation<br>
   ↓
-Variable
+Variable<br>
   ↓
-Feature
+Feature<br>
 
 These words are often used interchangeably by beginners, but they aren't exactly the same.
 
