@@ -147,7 +147,7 @@ So conceptually:
 
 
 | **FEATURES** | <ul><li>Distance</li><li>Traffic</li><li>Weather</li><li>Restaurant Prep Time</li><li>Time of Day</li></ul> |
-| **Process** | **↓** | **MACHINE LEARNING MODEL** |
+| **↓** | **MACHINE LEARNING MODEL** |
 | **Output** | **TARGET** | <ul><li>Late?</li></ul> |
 
 
