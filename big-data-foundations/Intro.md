@@ -1,6 +1,6 @@
 ## Objective
-What data is being generated, what form does it take, how much is being generated, how quickly does it arrive, 
-how trustworthy is it, what value can we extract, and what kind of infrastructure is required to handle it?
+What data is being generated,<br> what form does it take,<br> how much is being generated,<br> how quickly does it arrive,<br>
+how trustworthy is it,<br> what value can we extract,<br> and what kind of infrastructure is required to handle it?
 
 ## A. FOUNDATION
 
