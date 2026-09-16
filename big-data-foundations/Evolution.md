@@ -16,11 +16,11 @@ Simple.<br>
 
 But then organizations started accumulating enormous quantities of files.<br>
 **Problems:** <br>
-difficult querying<br>
-duplication<br>
-consistency issues<br>
-poor concurrent access<br>
-difficult management<br>
+-> Difficult Querying<br>
+-> Duplication<br>
+-> Consistency issues<br>
+-> Poor concurrent access<br>
+-> Difficult management<br>
 So we needed something better.<br>
 
 **Stage 2 — Databases** <br>
@@ -33,11 +33,11 @@ Tables<br>
 
 Databases gave us:<br>
 
-structured storage<br>
-indexing<br>
-querying<br>
-transactions<br>
-concurrency control<br>
+-> structured storage<br>
+-> indexing<br>
+-> querying<br>
+-> transactions<br>
+-> concurrency control<br>
 
 Then came the relational model.
 
