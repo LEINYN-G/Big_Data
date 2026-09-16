@@ -146,9 +146,7 @@ Late = 0/1
 So conceptually:
 
 
-| Step | Component | Details |
-| :--- | :--- | :--- |
-| **Inputs** | **FEATURES** | <ul><li>Distance</li><li>Traffic</li><li>Weather</li><li>Restaurant Prep Time</li><li>Time of Day</li></ul> |
+| **FEATURES** | <ul><li>Distance</li><li>Traffic</li><li>Weather</li><li>Restaurant Prep Time</li><li>Time of Day</li></ul> |
 | **Process** | **↓** | **MACHINE LEARNING MODEL** |
 | **Output** | **TARGET** | <ul><li>Late?</li></ul> |
 
