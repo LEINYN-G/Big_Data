@@ -6,16 +6,16 @@ Understand the historical problem.<br>
 **Stage 1 — File systems** <br>
 Originally:<br>
 ```text
-application<br>
-      ↓<br>
-files<br>
+application
+      ↓
+files
 ```
 For example:<br>
 ```text
-customer.txt<br>
-orders.csv<br>
-employees.csv<br>
-Simple.<br>
+customer.txt
+orders.csv
+employees.csv
+Simple.
 ```
 But then organizations started accumulating enormous quantities of files.<br>
 **Problems:** <br>
@@ -28,12 +28,12 @@ So we needed something better.<br>
 
 **Stage 2 — Databases** <br>
 ```text
-Enter databases.<br>
-Application<br>
-     ↓<br>
-Database<br>
-     ↓<br>
-Tables<br>
+Enter databases.
+Application
+     ↓
+Database
+     ↓
+Tables
 ```
 
 Databases gave us:<br>
@@ -58,21 +58,21 @@ city
 ```
 
 ```text
-ORDERS<br>
-------<br>
-order_id<br>
-customer_id<br>
-amount<br>
-date<br>
+ORDERS
+------
+order_id
+customer_id
+amount
+date
 ```
 
 And SQL lets us ask:<br>
 ```text
-SELECT ...<br>
-FROM ...<br>
-WHERE ...<br>
-JOIN ...<br>
-GROUP BY ...<br>
+SELECT ...
+FROM ...
+WHERE ...
+JOIN ...
+GROUP BY ...
 ```
 But then data became:<br>
 Larger<br>
@@ -86,13 +86,13 @@ and organizations needed analytical systems.<br>
 A data warehouse is optimized primarily for analytical workloads.<br>
 Think:<br>
 ```text
-Operational databases<br>
-        ↓<br>
-      ETL/ELT<br>
-        ↓<br>
- DATA WAREHOUSE<br>
-        ↓<br>
- BI / Analytics<br>
+Operational databases
+        ↓
+      ETL/ELT
+        ↓
+ DATA WAREHOUSE
+        ↓
+ BI / Analytics
 ```
  
  Example question:<br>
