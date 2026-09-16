@@ -262,6 +262,37 @@ Decision
 Imagine a stock-trading system.<br>
 If data arrives milliseconds apart, processing it tomorrow is useless.<br>
 
+Similarly:
+
+| Use Case |
+| :--- |
+| Fraud detection |
+| Network intrusion detection |
+| Autonomous vehicles |
+| IoT monitoring |
+| Real-time recommendation |
+can require low-latency processing.<br>
+This eventually leads us toward technologies such as:
+| kafka |
+| Spark Streaming |
+| Flink |
+| kinesis |
+
+### 3. Variety
+This one is particularly important.<br>
+Real-world data isn't always:<br>
+ID | Age | Salary
+you might have:<br>
+**Structured**
+
+ID | Age | Salary
+
+**Semi-structured**
+{
+  "customer_id": 102,
+  "name": "Alex",
+  "skills": ["Python", "SQL"]
+}
 
 
 
