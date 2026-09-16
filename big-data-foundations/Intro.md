@@ -237,8 +237,30 @@ Imagine a small restaurant.
 It might generate:
 100 order/day
 
+The real question becomes:  
+**How do i store, process, search, replicate, and analyze massive amounts of data efficiently?**
 
+That's where distributed systems become imprtant.
 
+### 2. Velocity
+
+Velocity = how quickly data is generated, transmitted, and/or needs to be processed.
+Compare:
+Batch<br>
+Sales data -> collect all day -> Process at midnight
+versus:
+Sensor
+ ↓
+Event
+ ↓
+Network
+ ↓
+Processing system
+ ↓
+Decision
+
+Imagine a stock-trading system.<br>
+If data arrives milliseconds apart, processing it tomorrow is useless.<br>
 
 
 
