@@ -5,15 +5,18 @@ Understand the historical problem.<br>
 
 **Stage 1 — File systems** <br>
 Originally:<br>
+```text
 application<br>
       ↓<br>
 files<br>
+```
 For example:<br>
+```text
 customer.txt<br>
 orders.csv<br>
 employees.csv<br>
 Simple.<br>
-
+```
 But then organizations started accumulating enormous quantities of files.<br>
 **Problems:** <br>
 -> Difficult Querying<br>
@@ -24,12 +27,14 @@ But then organizations started accumulating enormous quantities of files.<br>
 So we needed something better.<br>
 
 **Stage 2 — Databases** <br>
+```text
 Enter databases.<br>
 Application<br>
      ↓<br>
 Database<br>
      ↓<br>
 Tables<br>
+```
 
 Databases gave us:<br>
 
@@ -44,18 +49,22 @@ Then came the relational model.
 **Stage 3 — RDBMS**
 Relational Database Management Systems organize information into related tables.<br>
 Example:<br>
+```text
 CUSTOMERS
 ---------
 customer_id
 name
 city
+```
 
+```text
 ORDERS<br>
 ------<br>
 order_id<br>
 customer_id<br>
 amount<br>
 date<br>
+```
 
 And SQL lets us ask:<br>
 ```text
@@ -76,6 +85,7 @@ and organizations needed analytical systems.<br>
 **Stage 4 — Data Warehouses**
 A data warehouse is optimized primarily for analytical workloads.<br>
 Think:<br>
+```text
 Operational databases<br>
         ↓<br>
       ETL/ELT<br>
@@ -83,6 +93,7 @@ Operational databases<br>
  DATA WAREHOUSE<br>
         ↓<br>
  BI / Analytics<br>
+```
  
  Example question:<br>
 "What were our quarterly sales by region over the last five years?"<br>
@@ -91,9 +102,11 @@ This is very different from:<br>
 The first is analytical.<br>
 The second is transactional.<br>
 That distinction will matter enormously later:<br>
-**OLTP<br>
-vs<br>
-OLAP<br>**
+```text
+**OLTP
+vs
+OLAP**
+```
 
 **Stage 5 — Distributed Systems**
 Now comes the big shift.<br>
@@ -113,10 +126,12 @@ we use: <br>
  500 TB storage<br>
  you could try buying one gigantic machine.<br>
  But it may be:<br>
- expensive<br>
-difficult to scale<br>
-a single point of failure<br>
-difficult to upgrade<br>
+ ```text
+ expensive
+difficult to scale
+a single point of failure
+difficult to upgrade
+```
 Instead:<br>
 100 machines x 5 TB <br>
 can provide distributed storage.<br>
