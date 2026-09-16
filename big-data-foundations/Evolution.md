@@ -99,10 +99,12 @@ Now comes the big shift.<br>
 Instead of:<br>
 ONE HUGE COMPUTER <br>
 we use: <br>
+```text
         CLUSTER
  ┌──────┬──────┬──────┐
  │Node 1│Node 2│Node 3│
  └──────┴──────┴──────┘
+ ```
  Data and computation can be distributed across multiple machines.<br>
  WHY?<br>
  Because one machine has limits.<br>
@@ -124,13 +126,45 @@ rather than simply buying a more powerful machine.<br>
 **Stage 6 — Hadoop**
 Hadoop emerged as a major open-source ecosystem for distributed storage and processing.<br>
 The simplified architecture:<br>
-                 HADOOP
+ ```text
+       HADOOP
+          │
+  ┌───────┴───────┐
+  ↓               ↓
+ HDFS         MapReduce
+(Distributed  (Distributed
+  Storage)     Processing)
+```
+**HDFS**
+Think:<br>
+"How can I store enormous datasets across many machines?"<br>
+
+MapReduce<br>
+Think:<br>
+"How can I process enormous datasets across many machines?"<br>
+
+**Stage 7 — Spark**
+Then came Apache Spark, which made large-scale data processing much more flexible and generally much faster for many workloads than traditional disk-heavy MapReduce approaches.<br>
+Conceptually:<br>
+```text
+                 SPARK
                    │
-        ┌──────────┴──────────┐
-        ↓                     ↓
-      HDFS                 MapReduce
-   Distributed             Distributed
-    Storage                Processing
+        ┌──────────┼──────────┐
+        ↓          ↓          ↓
+      SQL       MLlib      Streaming
+        │          │          │
+        └──────────┼──────────┘
+                   ↓
+             Distributed
+              Processing
+```
+We'll eventually actually use Spark—not merely memorize its definition.<br>
+For example:
+```py
+df.groupBy("city").avg("salary")
+```
+and understand what is happening underneath.<br>
+
 
  
 
