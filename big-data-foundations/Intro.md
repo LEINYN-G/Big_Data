@@ -147,7 +147,70 @@ So conceptually:
 
 
 | **FEATURES** | <ul><li>Distance</li><li>Traffic</li><li>Weather</li><li>Restaurant Prep Time</li><li>Time of Day</li></ul>
-<li> **↓** </li><li>**MACHINE LEARNING MODEL**</li><li>**Output**</li> <li>**TARGET**</li><ul><li>Late?</li></ul>
+<li> ↓ </li><li> MACHINE LEARNING MODEL </li><li>TARGET</li>
+<li>Late?</li>
+Very important:
+Variable ≠ always feature.
+### A variable becomes a feature in the context of a particular modeling problem.
+For example:
+Customer ID
+is a variable
+But it might be useless--or even harmful--as a predictive feature.
+
+🔥 A real-world exercise
+Let's make this practical immediately.
+Imagine you are building a system for Co-Sphere or another employment platform.
+Suppose you collect:
+Candidate ID
+Age
+Degree
+Branch
+CGPA
+Skills
+Projects
+Internships
+Location
+Expected Salary
+Years of Experience
+Applied Job
+Interview Score
+Hired
+
+Now classify them.
+
+## Dataset
+The complete collection of candidate records.
+
+## Observation
+One candidate/application record.
+
+## Variables
+Age, CGPA, branch, skills, etc.
+
+## Features
+Depends on what you're predicting.
+If:
+Target = Hired
+then:
+CGPA
+Skills
+Projects
+Internships
+Experience
+Interview Score
+
+could potentially be feartures.
+But be careful.
+### If the model is supposed to predict whether someone will be hired before the interview, then:
+*Interview Score* 
+**would create data leakage.<br>
+why?<br>
+Because you're using information that wouldn't be available at prediction time.
+"would this information legitimately exist at the moment my system makes its prediction?"**
+well, this is called real world ML.
+
+
+
 
 
 
