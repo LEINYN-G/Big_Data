@@ -235,10 +235,7 @@ But your syllabus uses the classic five, so we'll master those first.
 Volume = how much data exists.
 Imagine a small restaurant.
 It might generate:
-
-
-
-
+100 order/day
 
 
 
