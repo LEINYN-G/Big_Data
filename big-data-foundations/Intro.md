@@ -159,7 +159,7 @@ But it might be useless--or even harmful--as a predictive feature.
 
 🔥 A real-world exercise
 Let's make this practical immediately.
-Imagine you are building a system for Co-Sphere or another employment platform.
+Imagine you are building a system for an employment platform.
 Suppose you collect:
 
 | Candidate Fields |
