@@ -63,11 +63,11 @@ order.csv
 or
 orders.parquet
 or store it in:
-PostgreSQL
-MySQL
-MongoDB
-Data Warehouse
-Data Lake
+PostgreSQL<br>
+MySQL<br>
+MongoDB<br>
+Data Warehouse<br>
+Data Lake<br>
 
 And that already gives us our first connection between data science and data engineering.
 
