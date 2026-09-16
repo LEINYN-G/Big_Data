@@ -271,8 +271,10 @@ Similarly:
 | Autonomous vehicles |
 | IoT monitoring |
 | Real-time recommendation |
+
 can require low-latency processing.<br>
-This eventually leads us toward technologies such as:
+This eventually leads us toward technologies such as:<br>
+
 | kafka |
 | Spark Streaming |
 | Flink |
