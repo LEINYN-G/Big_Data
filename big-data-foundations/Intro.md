@@ -125,6 +125,35 @@ The variable is:
 Delivery Time
 The value changes from observation to observation.
 
+### 5. Feature
+
+Now we reach an important Data Science distinction.
+
+A feature is an input variable used by a model to make a prediction or perform some analytical task.
+
+Suppose our goal is:
+### Predict whether a food delivery will arrive late.
+We might have:
+Distance
+Weather
+Traffic
+Restaurant preparation time
+Time of day
+Number of active delivery partners
+-> These can become features.
+Out target could be:
+Late = 0/1
+So conceptually:
+
+
+| Step | Component | Details |
+| :--- | :--- | :--- |
+| **Inputs** | **FEATURES** | <ul><li>Distance</li><li>Traffic</li><li>Weather</li><li>Restaurant Prep Time</li><li>Time of Day</li></ul> |
+| **Process** | **↓** | **MACHINE LEARNING MODEL** |
+| **Output** | **TARGET** | <ul><li>Late?</li></ul> |
+
+
+
 
 
 
