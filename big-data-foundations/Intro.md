@@ -230,7 +230,7 @@ Sometimes you'll also encounter additional Vs such as:
 Variability
 Visualization
 
-But your syllabus uses the classic five, so we'll master those first.
+But these are the classic five, so we'll master these first.
 1. Volume
 Volume = how much data exists.
 Imagine a small restaurant.
