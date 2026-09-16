@@ -288,18 +288,95 @@ you might have:<br>
 ID | Age | Salary
 
 **Semi-structured**
+```json
 {
   "customer_id": 102,
   "name": "Alex",
   "skills": ["Python", "SQL"]
 }
+```
+**Unstructured
+image<br>
+video<br>
+audio<br>
+PDF<br>
+email<br>
+social-media post<br>
+Now imagine an autonomous vehicle.
+It could process:
+camera images<br>
+LiDAR<br>
+GPS<br>
+radar<br>
+vehicle telemetry<br>
+maps<br>
+audio<br>
+weather data<br>
+That is variety.<br>
 
+### 4. Veracity
+This is one of the most important concepts for becoming a serious data scientist.<br>
+**Veracity=how trustworthy/reliable the data is.**
 
+Real-world systems contain:<br>
 
+missing values<br>
+duplicate records<br>
+incorrect measurements<br>
+inconsistent formats<br>
+sensor errors<br>
+fraudulent data<br>
+human input errors<br>
+stale information<br>
+So:<br>
+**Big Data isn't automatically useful simply because it's big.**<br>
+you can have:<br>
+10 TB of garbage<br>
+and it is still garbage.<br>
+This leads directly to your **Data Quality** section later.<br>
 
+### 5. Value
+The ultimate question:<br>
+Can we derive useful decisions, insights, predictions, or actions from the data?<br>
+Suppose an e-commerce company has<br>
+100 TB of customer data<br>
+but doesn't know what itself isn't valuable.<br>
 
+But suppose analysis reveals:<br>
+Customers who view product X twice within 24 hours are highly likely to purchase product Y.<br>
+Now you can potentially build:<br>
+Recommendation system<br>
+       ↓
+Personalized recommendations<br>
+       ↓
+Higher conversion<br>
+       ↓
+Business value<br>
+That's **Value**
 
+**The Big Data mental model**
 
+```text
+                BIG DATA
+                    │
+       ┌────────────┼────────────┐
+       ↓            ↓            ↓
+    VOLUME       VELOCITY      VARIETY
+       │            │            │
+    How much?   How fast?    What forms?
+       │            │            │
+       └────────────┼────────────┘
+                    ↓
+                 VERACITY
+                    │
+              Can we trust it?
+                    ↓
+                  VALUE
+                    │
+              Can we use it?
+```
+A better way to think about it is:<br>
+**Data whose scale, speed, diversity, or complexity creates challenges that traditional data-processing approaches struggle to handle efficiently.** <br>
 
 
 
