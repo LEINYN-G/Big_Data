@@ -5,21 +5,20 @@ For example, unstructured, NoSQL (not only SQL) data or Hadoop compatible system
 Following are selected key terms and their meanings, 
 which are essential to understand the topics discussed in this chapter:
 
-1. __Application__: Means application software or a collection of software components.<br>
-                    For example,<br>
-                    software for acquiring, storing, visualizing and analyzing data.<br>
-                    An application performs a group of coordinated activities, functions and tasks.
+1. __Application__: Means application software or a collection of software components. For example, software for<br>
+                    acquiring, storing, visualizing and analyzing data. An application performs a group of coordinated<br>
+                    activities, functions and tasks.
 
-2. __Application Programming Interface (API)__: Refers to a software component which enables a user to<br>
-                                               access an application, service or software that runs on a local or <br>
-                                               remote computing platform. An API initiates running of the application on<br>
-                                               receiving the message(s) from the user-end. An API sends the user-end<br>
-                                               messages to the other-end software. The other-end software sends responses<br>
-                                               or messages to the API and the user.
+2. __Application Programming Interface (API)__: Refers to a software component which enables a user to access an<br>
+                                                application, service or software that runs on a local or remote computing<br>
+                                                platform. An API initiates running of the application on receiving the<br>
+                                                message(s) from the user-end. An API sends the user-end messages to the<br>
+                                                other-end software. The other-end software sends responses or messages to<br>
+                                                the API and the user.
 
-3. __Data Model__: Refers to a map or schema, which represents the inherent properties of the data.<br>
-                  The map shows groupings of the data elements, such as records or tables, and their associations.<br>
-                  A model does not depend on software using that data.
+3. __Data Model__: Refers to a map or schema, which represents the inherent properties of the data. The map shows<br>
+                   groupings of the data elements, such as records or tables, and their associations. A model does<br>
+                   not depend on software using that data.
 
 4. __Data Repository__: It refers to a collection of data. A data-seeking program relies upon the data repository for<br>
                        reporting. The examples of repositories are database, flat file and spreadsheet.<br>
