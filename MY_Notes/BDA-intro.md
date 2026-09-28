@@ -87,11 +87,9 @@ which are essential to understand the topics discussed in this chapter:
 
 
 17.__Relational Database Management System (RDBMS)__: Refers to a software system used for creation relational databases<br>
-                                                      and management of data which are stored in a relational database.<br>
-                                                      RDBMS functions perform the transactions on the relational <br>
-                                                      database.Examples of RDBMS are MvSOL. PostGreSOL<br>
-                                                      (Oracle database created using PL/SQL) and Microsoft SQL server<br>
-                                                      using T-SQL.
+and management of data which are stored in a relational database. RDBMS functions perform the transactions on the<br>
+ relational database.Examples of RDBMS are MvSOL. PostGreSOL(Oracle database created using PL/SQL) and Microsoft<br>
+ SQL server using T-SQL.
 
 18.__Transaction (trans+action)__: means two interrelated sets of operations, actions or instructions. A transaction is a set of actions which accesses, changes, updates, appends or deletes various data. A command "connect enables transfers between DBMS software and a database. The database in return connects the DBMS. AD example of this is query transfer from a system to a database. The database in return transfers the answer of the query.
 
