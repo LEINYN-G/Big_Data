@@ -1,8 +1,13 @@
 ## Big Data Introduction
-Big Data requires new tools for processing and analysis of a large volume of data. For example, unstructured, NoSQL (not only SQL) data or Hadoop compatible system data.
+Big Data requires new tools for processing and analysis of a large volume of data.<br>
+For example, unstructured, NoSQL (not only SQL) data or Hadoop compatible system data.
 
-Following are selected key terms and their meanings,<br> which are essential to understand the topics discussed in this chapter:
+Following are selected key terms and their meanings,<br> 
+which are essential to understand the topics discussed in this chapter:
 
-Application means application software or a collection of software components. For example, software for acquiring, storing, visualizing and analyzing data. An application performs a group of coordinated activities, functions and tasks.
+1. Application: means application software or a collection of software components.<br>
+   For example,<br>
+   software for acquiring, storing, visualizing and analyzing data.<br>
+   An application performs a group of coordinated activities, functions and tasks.
 
 Application Programming Interface (API) refers to a software component which enables a user to access an application, service or software that runs on a local or remote computing platform. An API initiates running
