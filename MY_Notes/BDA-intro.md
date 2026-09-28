@@ -86,29 +86,29 @@ which are essential to understand the topics discussed in this chapter:
               of data stored in a database. Transactions can be performed with database/RDBMS.
 
 
-17.__Relational Database Management System (RDBMS)__: Refers to a software system used for creation relational databases<br>
+17. __Relational Database Management System (RDBMS)__: Refers to a software system used for creation relational databases<br>
 and management of data which are stored in a relational database. RDBMS functions perform the transactions on the<br>
  relational database.Examples of RDBMS are MvSOL. PostGreSOL(Oracle database created using PL/SQL) and Microsoft<br>
  SQL server using T-SQL.
 
 18.__Transaction (trans+action)__: means two interrelated sets of operations, actions or instructions. A transaction is a set of actions which accesses, changes, updates, appends or deletes various data. A command "connect enables transfers between DBMS software and a database. The database in return connects the DBMS. AD example of this is query transfer from a system to a database. The database in return transfers the answer of the query.
 
-19.__SQL__: Stands for Structured Query Language. It is a language used for schema creation and schent modifications,<br>
+19. __SQL__: Stands for Structured Query Language. It is a language used for schema creation and schent modifications,<br>
             data-access control, creating an SQL client and creating an SQL server for a database. It is language<br>
             for managing relational databases, and viewing, querying and changing<br>
             (update, insert, append er delete)databases.
 
-20.__Database Connection__: Refers a function DB_connect open which an application calls to connect to enable the access<br>
+20. __Database Connection__: Refers a function DB_connect open which an application calls to connect to enable the access<br>
                             to the DBMS. The application calls the function DB_connect close () to disable the access.
 
-21.__Database Connectivity (DBC)__: Refers to a standard application programming interface (API), which provides<br>
+21. __Database Connectivity (DBC)__: Refers to a standard application programming interface (API), which provides<br>
                                     connectivity for accessing the DBMSs. A DBC design is independent of the DB system<br>
                                     and 05 used. An application written using a DBC can therefore perform operations<br>
                                     or actions at both the client and the DB server end. Little changes in code suffice<br>
                                     for accessing the data. Two examples of DBCs are Oper Database Connectivity (ODBC)<br>
                                     and Java Database Connectivity (JDBC).
 
-22.__Database Connectivity Driver__: Refers to a translation layer which resides between an application using the<br>
+22. __Database Connectivity Driver__: Refers to a translation layer which resides between an application using the<br>
                                      application and the DBMS. The application uses DBC functions through a DBC driver<br>
                                      manager with which it is linked. A DBC driver manager manages the drivers associated<br>
                                      with the DBMSs. The DBC driver sends the queries to a DBMS. Drivers exist for many<br>
@@ -116,6 +116,31 @@ and management of data which are stored in a relational database. RDBMS function
 
 #### DB2 is IBM RDBMS. DB2 has many features. For example, triggers, stored procedures and dynamic bitmapped indexing for number of application types, such as traditional host-based applications, client server-based applications and business intelligence applications.
 
-23.__Data Warehouse__: Refers to sharable data, data stores and databases in an enterprise. It consists of<br>
+23. __Data Warehouse__: Refers to sharable data, data stores and databases in an enterprise. It consists of<br>
                        integrated, subject oriented (such as finance, human resources and business) and non-volatile<br>
                        data stores, which update regularly.
+24. __Data Mart__: It is a subset of data warehouse. Data mart corresponds to specific business entity on a single subject (or functional area), such as sales or finance data mart is also known as High Performance Query Structures (HPQS).
+
+25. __Process__: Means a composition of group of structured activities, tasks or services that lead to a particular goal. For example, purchase process for airline tickets. A process specifies activities with relevance rules based on data in the process.
+
+Process Matrix refers to a multi-element entity, each clement of which relates a set of data or inputs to an activity (or subset of activities).
+
+Business Process is an activity, series of activities or a collection of inter-related structured activities, tasks or processes. A business process serves a particular goal, specific result, service or product. The business process is a representation, process matrix or flowchart of a sequence of activities with interleaving decision points.
+
+Business Intelligence is a process which enables a business service to extract new facts and knowledge that enable intelligent decisions. The new facts and knowledge follow from the previous results of business-data processing, aggregation and analysis.
+
+Batch Processing is processing of transactions in batches with no interactions. When one set of transactions finish, the results are stored and the next batch starts processing. Credit card transactions is a good example of the same. The results aggregate at the end of the month for all usages of the card. Batch processing involves the collection of inputs for a specified period and then running them in a scheduled manner.
+
+Batch Transaction Processing refers to the execution of a series of transactions without user interactions. Transaction jobs are set up so they can be run to completion. Scripts, command-line arguments, control files or job-control language predefine the input parameters for the transactions.
+
+Streaming Transaction Processing refers to processing for log streams, event streams, twitter streams and queries. The processing of streaming data needs a specialized software framework. Storm from Twitter, S4 from Yahoo, SPARK streaming, HStreaming and Flume are examples of frameworks for real-time streaming computations.
+
+In-memory means operations using CPU memory, such as RAM or caches. Data in-memory is from a disk or external data source. The operations are fast on in-memory accesses of data, table or data sets, columns or rows compared to disk-accesses.
+
+Interactive Transaction Processing means processing the transactions which involve continual exchange of information between the computer and user; for example, user interactions during e-shopping or e-banking. The processing here is just the opposite of batch processing. Decision on historical data is fast. Interactive query processing has low latency. Low latencies are obtained by the various approaches: massively parallel processing (MPP), in-memory databases and columnar databases.
+
+Real-Time Processing refers to processing for obtaining results for making decisions in real time, processing as and when the data acquires or generates in live data (streaming) with low latency.
+
+Real-Time Transaction Processing means that transactions process at the same time as the data arrives from the data sources. An example of such processing is transaction processing at an ATM machine.
+
+Extract, Transform and Load (ETL) refers to the process, which enables data retrieval, integration, transformation and storage (load). Extract means obtaining data from homogeneous or heterogeneous data sources. Transform means transforming or optimizing data for the application, and storing the data in an appropriate structure or format. Load means the structured data is loaded in the final target database, i.e. data store or data warehouse.
