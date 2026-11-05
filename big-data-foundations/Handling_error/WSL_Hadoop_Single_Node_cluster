@@ -1,0 +1,21 @@
+## 📝 Project Note: Troubleshooting Hadoop Single-Node Cluster Architecture on WSL.
+###🚨 The Problem (Why the Cluster Failed)
+
+
+During the initial deployment of Apache Hadoop 3.3.6 on Ubuntu via Windows Subsystem for Linux (WSL), running the jps command revealed that only 4 out of 6 core processes were active (NameNode, ResourceManager, NodeManager, and Jps). The DataNode (storage worker) and SecondaryNameNode (backup coordinator) were failing immediately upon startup due to two distinct architectural environment conflicts:
+1. Port Binding Violations (java.net.BindException: Address already in use): Because WSL shares the network stack with the host Windows 11 OS, default Hadoop networking ports (9866 for the DataNode data transfer and 9868 for the SecondaryNameNode HTTP UI) were already blocked by background Windows services.
+2. Directory Initialization Failures (java.io.IOException: All specified directories have failed to load): Mixing administrative (sudo) and regular user accounts to wipe temporary directories left hidden root-owned locks and permission blocks inside the HDFS data paths (/home/nisha/cse/hadoop/datanode), causing the DataNode storage layer to crash instantly.
+3. Configuration Syntax Faults: The yarn-site.xml file contained a structural syntax error (missing <configuration> opening tags) and minor spelling typographical errors (org.apche instead of org.apache and shuffleHandler instead of ShuffleHandler).
+
+🛠️ The Fixing Steps (How We Solved It)
+
+To establish a stable, fully functioning single-node cluster ecosystem, the following remediation pipeline was executed:
+• Step 1: Terminating Zombie Blocks & Partial Daemons
+The cluster was completely stopped using stop-all.sh, and local port scans were run to locate and kill any rogue lingering background network processes.
+• Step 2: Correcting XML Cluster Configuration Matrices
+	• yarn-site.xml: Fixed the malformed tags and corrected the class name paths for the MapReduce shuffle handler.
+	• hdfs-site.xml: Configured custom, non-conflicting network ports to bypass the Windows 11 host architecture (9876 for DataNode data, 9865 for DataNode HTTP, and 9869 for the SecondaryNameNode HTTP interface). The replication factor (dfs.replication) was dropped from 3 to 1 to accurately reflect our single-laptop test environment.
+• Step 3: Restoring Native User Ownership & Purging Corrupt States
+The old, permission-locked directories were fully scrubbed from the filesystem. Fresh storage folders (namenode and datanode) were cleanly reconstructed natively under the correct user account (nisha) with optimal read/write clearance permissions (755), ensuring Hadoop had unrestricted access to its storage paths.
+• Step 4: Clean Metadata Formatting & Successful Boot
+The HDFS master node was initialized using hdfs namenode -format to generate matching Cluster IDs across all freshly created paths. Running start-all.sh followed by jps successfully confirmed all 6 core processes were running flawlessly in perfect harmony.
