@@ -1,5 +1,8 @@
-##Retail Price Predictor
+## Retail Price Predictor
 **This Jupyter notebook is a Retail Price Predictor experiment.**
+
+---
+
 The data scientist wants to use a grocery item's name, store name, and city to guess its price.
 
 
@@ -28,3 +31,4 @@ A robot brain cannot learn from broken data. The data scientist fixed the mess w
 5. Filling in the blanks (.fillna()): If an item was missing a name but had a product code, they looked up other items with the same code to patch the missing names.
 6. Narrowing Focus (The EUR Filter): To keep things fair, they created a separate dataset called df_eur containing only items priced in Euros (EUR).
                                      This stopped the currency confusion.
+---
